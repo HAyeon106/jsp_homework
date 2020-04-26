@@ -1,4 +1,4 @@
-package lecture01;
+package lecture01.jdbc1;
 
 public class Student {
 	int id;
@@ -6,14 +6,7 @@ public class Student {
 	String name;
 	int departmentId;
 	int year;
-	
-	public Student(int id, String studentNumber, String name, int departmentId, int year) {
-		this.id = id;
-		this.studentNumber = studentNumber;
-		this.name = name;
-		this.departmentId = departmentId;
-		this.year = year;
-	}
+	String departmentName;
 	
 	public int getId() {
 		return id;
@@ -44,5 +37,11 @@ public class Student {
 	}
 	public void setYear(int year) {
 		this.year = year;
+	}
+	public String getDepartmentName() {
+		return departmentName;
+	}
+	public void setDepartmentName(String departmentName) {
+		this.departmentName=departmentName;
 	}
 }
