@@ -1,4 +1,4 @@
-package lecture01.jdbc1;
+package lecture01;
 
 public class Student {
 	int id;

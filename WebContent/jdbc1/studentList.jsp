@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="java.util.List, lecture01.jdbc1.*";%>
+<%@ page import="java.util.List, lecture01.StudentDAO.*";%>
 <%
 List<Student> list = StudentDAO.findAll();
 %>

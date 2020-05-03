@@ -1,4 +1,4 @@
-package lecture01.jdbc1;
+package lecture01;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
