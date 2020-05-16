@@ -52,7 +52,6 @@ else
 			</tr>
 			<% } %>
 		</tbody>	
-	</table>
-</div>
+	</table></div>
 </body>
 </html>
