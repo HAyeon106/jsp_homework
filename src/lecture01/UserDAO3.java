@@ -8,7 +8,7 @@ import java.util.List;
 import lecture01.DB;
 
 public class UserDAO3 {
-	public static User getUserFrom(ResultSet resultSet) throws Exception{
+	private static User getUserFrom(ResultSet resultSet) throws Exception{
 		User user = new User();
 		user.setId(resultSet.getInt("id"));
 		user.setUserId(resultSet.getString("userid"));
